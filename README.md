@@ -1,7 +1,7 @@
-# discountofx
-Simple OFX video filter plugins
+# discountofxredux
+Simple OFX video filter plugins. fixed to work on Sony/Magix Vegas.
 
-This is a set of CUDA-accelerated OpenFX video plugins for use in programs like Davinci Resolve. They were tested with Resolve 17. The non-CUDA software fallback has not been tested, but should work.
+This is a set of CUDA-accelerated OpenFX video plugins for use in programs like Davinci Resolve. They were not tested. The non-CUDA software fallback has not been tested, but should work.
 
 There are also several false color LUTs to aid in color grading.
 
@@ -9,7 +9,7 @@ There are also several false color LUTs to aid in color grading.
 
 Copy the <plugin>.ofx.bundle folders to C:\Program Files\Common Files\OFX\Plugins
 
-Copy the LUTs to C:\ProgramData\Blackmagic Design\DaVinci Resolve\Support\LUT
+Copy the LUTs to C:\ProgramData\Blackmagic Design\DaVinci Resolve\Support\LUT on DVR and/or (idk) on Sony Vegas.
 
 ## OFX Filters
 
